@@ -1,0 +1,172 @@
+.hg-theme-default .hg-button,
+.hg-theme-default .hg-button-container {
+    width: 4.4vw !important;
+    height: 12.95vh !important;
+    flex-grow: 0 !important;
+    flex-shrink: 0 !important;
+    flex-basis: auto !important;
+    display: flex !important;
+    background-color: #6c6c6cd6 !important;
+}
+
+.hg-theme-default.portrait .hg-button,
+.hg-theme-default.portrait .hg-button-container {
+    width: 7.2vw !important;
+    height: 8vh !important;
+}
+
+.hg-row {
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.hg-theme-default .hg-button.hg-button-backspace,
+.hg-theme-default .hg-button.hg-button-space,
+.hg-theme-default .hg-button-container:has(.hg-button-backspace),
+.hg-theme-default .hg-button-container:has(.hg-button-space) {
+    width: 8.7vw !important;
+}
+
+.hg-theme-default {
+    background-color: "rgba(0, 0, 0, 0.7)";
+    margin-bottom: 3.7vh !important;
+    background-color: transparent !important;
+}
+
+.hg-layout-default {
+    margin-top: 10px !important;
+}
+
+.virtual-input {
+    width: 42%;
+    height: 6.58vh !important;
+    min-width: 150px;
+    /* font-size: 1.4rem; */
+    text-align: center;
+    color: yellow;
+    padding: 10px;
+    /* margin-bottom: 1rem; */
+    border-radius: 6px;
+    text-shadow: 2px 2px 1px rgba(0,0,0,1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.hg-button.btn-1        { background-image: url('../img/virtualKey/1.png'); background-size: cover; background-position: center; color: transparent; }
+.hg-button.btn-1-active { background-image: url('../img/virtualKey/1a.png'); background-size: cover; background-position: center; color: transparent; }
+
+.hg-button.btn-2        { background-image: url('../img/virtualKey/2.png'); background-size: cover; background-position: center; color: transparent; }
+.hg-button.btn-2-active { background-image: url('../img/virtualKey/2a.png'); background-size: cover; background-position: center; color: transparent; }
+
+.hg-button.btn-3        { background-image: url('../img/virtualKey/3.png'); background-size: cover; background-position: center; color: transparent; }
+.hg-button.btn-3-active { background-image: url('../img/virtualKey/3a.png'); background-size: cover; background-position: center; color: transparent; }
+
+.hg-button.btn-4        { background-image: url('../img/virtualKey/4.png'); background-size: cover; background-position: center; color: transparent; }
+.hg-button.btn-4-active { background-image: url('../img/virtualKey/4a.png'); background-size: cover; background-position: center; color: transparent; }
+
+.hg-button.btn-5        { background-image: url('../img/virtualKey/5.png'); background-size: cover; background-position: center; color: transparent; }
+.hg-button.btn-5-active { background-image: url('../img/virtualKey/5a.png'); background-size: cover; background-position: center; color: transparent; }
+
+.hg-button.btn-6        { background-image: url('../img/virtualKey/6.png'); background-size: cover; background-position: center; color: transparent; }
+.hg-button.btn-6-active { background-image: url('../img/virtualKey/6a.png'); background-size: cover; background-position: center; color: transparent; }
+
+.hg-button.btn-7        { background-image: url('../img/virtualKey/7.png'); background-size: cover; background-position: center; color: transparent; }
+.hg-button.btn-7-active { background-image: url('../img/virtualKey/7a.png'); background-size: cover; background-position: center; color: transparent; }
+
+.hg-button.btn-8        { background-image: url('../img/virtualKey/8.png'); background-size: cover; background-position: center; color: transparent; }
+.hg-button.btn-8-active { background-image: url('../img/virtualKey/8a.png'); background-size: cover; background-position: center; color: transparent; }
+
+.hg-button.btn-9        { background-image: url('../img/virtualKey/9.png'); background-size: cover; background-position: center; color: transparent; }
+.hg-button.btn-9-active { background-image: url('../img/virtualKey/9a.png'); background-size: cover; background-position: center; color: transparent; }
+
+.hg-button.btn-0        { background-image: url('../img/virtualKey/0.png'); background-size: cover; background-position: center; color: transparent; }
+.hg-button.btn-0-active { background-image: url('../img/virtualKey/0a.png'); background-size: cover; background-position: center; color: transparent; }
+
+.hg-button[data-skbtn="Q"] { background-image: url('../img/virtualKey/q.png'); background-size: cover; background-position: center; color: transparent; }
+.hg-button[data-skbtn="Q"].hg-activeButton { background-image: url('../img/virtualKey/qa.png'); background-size: cover; background-position: center; color: transparent; }
+
+.hg-button[data-skbtn="W"] { background-image: url('../img/virtualKey/w.png'); background-size: cover; background-position: center; color: transparent; }
+.hg-button[data-skbtn="W"].hg-activeButton { background-image: url('../img/virtualKey/wa.png'); background-size: cover; background-position: center; color: transparent; }
+
+.hg-button[data-skbtn="E"] { background-image: url('../img/virtualKey/e.png'); background-size: cover; background-position: center; color: transparent; }
+.hg-button[data-skbtn="E"].hg-activeButton { background-image: url('../img/virtualKey/ea.png'); background-size: cover; background-position: center; color: transparent; }
+
+.hg-button[data-skbtn="R"] { background-image: url('../img/virtualKey/r.png'); background-size: cover; background-position: center; color: transparent; }
+.hg-button[data-skbtn="R"].hg-activeButton { background-image: url('../img/virtualKey/ra.png'); background-size: cover; background-position: center; color: transparent; }
+
+.hg-button[data-skbtn="T"] { background-image: url('../img/virtualKey/t.png'); background-size: cover; background-position: center; color: transparent; }
+.hg-button[data-skbtn="T"].hg-activeButton { background-image: url('../img/virtualKey/ta.png'); background-size: cover; background-position: center; color: transparent; }
+
+.hg-button[data-skbtn="Y"] { background-image: url('../img/virtualKey/y.png'); background-size: cover; background-position: center; color: transparent; }
+.hg-button[data-skbtn="Y"].hg-activeButton { background-image: url('../img/virtualKey/ya.png'); background-size: cover; background-position: center; color: transparent; }
+
+.hg-button[data-skbtn="U"] { background-image: url('../img/virtualKey/u.png'); background-size: cover; background-position: center; color: transparent; }
+.hg-button[data-skbtn="U"].hg-activeButton { background-image: url('../img/virtualKey/ua.png'); background-size: cover; background-position: center; color: transparent; }
+
+.hg-button[data-skbtn="I"] { background-image: url('../img/virtualKey/i.png'); background-size: cover; background-position: center; color: transparent; }
+.hg-button[data-skbtn="I"].hg-activeButton { background-image: url('../img/virtualKey/ia.png'); background-size: cover; background-position: center; color: transparent; }
+
+.hg-button[data-skbtn="O"] { background-image: url('../img/virtualKey/o.png'); background-size: cover; background-position: center; color: transparent; }
+.hg-button[data-skbtn="O"].hg-activeButton { background-image: url('../img/virtualKey/oa.png'); background-size: cover; background-position: center; color: transparent; }
+
+.hg-button[data-skbtn="P"] { background-image: url('../img/virtualKey/p.png'); background-size: cover; background-position: center; color: transparent; }
+.hg-button[data-skbtn="P"].hg-activeButton { background-image: url('../img/virtualKey/pa.png'); background-size: cover; background-position: center; color: transparent; }
+
+.hg-button[data-skbtn="A"] { background-image: url('../img/virtualKey/a.png'); background-size: cover; background-position: center; color: transparent; }
+.hg-button[data-skbtn="A"].hg-activeButton { background-image: url('../img/virtualKey/aa.png'); background-size: cover; background-position: center; color: transparent; }
+
+.hg-button[data-skbtn="S"] { background-image: url('../img/virtualKey/s.png'); background-size: cover; background-position: center; color: transparent; }
+.hg-button[data-skbtn="S"].hg-activeButton { background-image: url('../img/virtualKey/sa.png'); background-size: cover; background-position: center; color: transparent; }
+
+.hg-button[data-skbtn="D"] { background-image: url('../img/virtualKey/d.png'); background-size: cover; background-position: center; color: transparent; }
+.hg-button[data-skbtn="D"].hg-activeButton { background-image: url('../img/virtualKey/da.png'); background-size: cover; background-position: center; color: transparent; }
+
+.hg-button[data-skbtn="F"] { background-image: url('../img/virtualKey/f.png'); background-size: cover; background-position: center; color: transparent; }
+.hg-button[data-skbtn="F"].hg-activeButton { background-image: url('../img/virtualKey/fa.png'); background-size: cover; background-position: center; color: transparent; }
+
+.hg-button[data-skbtn="G"] { background-image: url('../img/virtualKey/g.png'); background-size: cover; background-position: center; color: transparent; }
+.hg-button[data-skbtn="G"].hg-activeButton { background-image: url('../img/virtualKey/ga.png'); background-size: cover; background-position: center; color: transparent; }
+
+.hg-button[data-skbtn="H"] { background-image: url('../img/virtualKey/h.png'); background-size: cover; background-position: center; color: transparent; }
+.hg-button[data-skbtn="H"].hg-activeButton { background-image: url('../img/virtualKey/ha.png'); background-size: cover; background-position: center; color: transparent; }
+
+.hg-button[data-skbtn="J"] { background-image: url('../img/virtualKey/j.png'); background-size: cover; background-position: center; color: transparent; }
+.hg-button[data-skbtn="J"].hg-activeButton { background-image: url('../img/virtualKey/ja.png'); background-size: cover; background-position: center; color: transparent; }
+
+.hg-button[data-skbtn="K"] { background-image: url('../img/virtualKey/k.png'); background-size: cover; background-position: center; color: transparent; }
+.hg-button[data-skbtn="K"].hg-activeButton { background-image: url('../img/virtualKey/ka.png'); background-size: cover; background-position: center; color: transparent; }
+
+.hg-button[data-skbtn="L"] { background-image: url('../img/virtualKey/l.png'); background-size: cover; background-position: center; color: transparent; }
+.hg-button[data-skbtn="L"].hg-activeButton { background-image: url('../img/virtualKey/la.png'); background-size: cover; background-position: center; color: transparent; }
+
+.hg-button[data-skbtn="Z"] { background-image: url('../img/virtualKey/z.png'); background-size: cover; background-position: center; color: transparent; }
+.hg-button[data-skbtn="Z"].hg-activeButton { background-image: url('../img/virtualKey/za.png'); background-size: cover; background-position: center; color: transparent; }
+
+.hg-button[data-skbtn="X"] { background-image: url('../img/virtualKey/x.png'); background-size: cover; background-position: center; color: transparent; }
+.hg-button[data-skbtn="X"].hg-activeButton { background-image: url('../img/virtualKey/xa.png'); background-size: cover; background-position: center; color: transparent; }
+
+.hg-button[data-skbtn="C"] { background-image: url('../img/virtualKey/c.png'); background-size: cover; background-position: center; color: transparent; }
+.hg-button[data-skbtn="C"].hg-activeButton { background-image: url('../img/virtualKey/ca.png'); background-size: cover; background-position: center; color: transparent; }
+
+.hg-button[data-skbtn="V"] { background-image: url('../img/virtualKey/v.png'); background-size: cover; background-position: center; color: transparent; }
+.hg-button[data-skbtn="V"].hg-activeButton { background-image: url('../img/virtualKey/va.png'); background-size: cover; background-position: center; color: transparent; }
+
+.hg-button[data-skbtn="B"] { background-image: url('../img/virtualKey/b.png'); background-size: cover; background-position: center; color: transparent; }
+.hg-button[data-skbtn="B"].hg-activeButton { background-image: url('../img/virtualKey/ba.png'); background-size: cover; background-position: center; color: transparent; }
+
+.hg-button[data-skbtn="N"] { background-image: url('../img/virtualKey/n.png'); background-size: cover; background-position: center; color: transparent; }
+.hg-button[data-skbtn="N"].hg-activeButton { background-image: url('../img/virtualKey/na.png'); background-size: cover; background-position: center; color: transparent; }
+
+.hg-button[data-skbtn="M"] { background-image: url('../img/virtualKey/m.png'); background-size: cover; background-position: center; color: transparent; }
+.hg-button[data-skbtn="M"].hg-activeButton { background-image: url('../img/virtualKey/ma.png'); background-size: cover; background-position: center; color: transparent; }
+
+.hg-button[data-skbtn="-"] { background-image: url('../img/virtualKey/minus.png'); background-size: cover; background-position: center; color: transparent; }
+.hg-button[data-skbtn="-"].hg-activeButton { background-image: url('../img/virtualKey/minus_a.png'); background-size: cover; background-position: center; color: transparent; }
+
+.hg-button[data-skbtn="'"] { background-image: url('../img/virtualKey/comma.png'); background-size: cover; background-position: center; color: transparent; }
+.hg-button[data-skbtn="'"].hg-activeButton { background-image: url('../img/virtualKey/comma_a.png'); background-size: cover; background-position: center; color: transparent; }
+
+.hg-button[data-skbtn="{backspace}"] { background-image: url('../img/virtualKey/del.png'); background-size: cover; background-position: center; color: transparent; }
+.hg-button[data-skbtn="{backspace}"].hg-activeButton { background-image: url('../img/virtualKey/del_a.png'); background-size: cover; background-position: center; color: transparent; }
+
+.hg-button[data-skbtn="{space}"] { background-image: url('../img/virtualKey/space.png'); background-size: cover; background-position: center; color: transparent; }
+.hg-button[data-skbtn="{space}"].hg-activeButton { background-image: url('../img/virtualKey/space_a.png'); background-size: cover; background-position: center; color: transparent; }
